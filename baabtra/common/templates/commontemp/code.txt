@@ -86,11 +86,7 @@
                     <p class="fontcolor">
                         Learn programming from Kerala's most trusted software training company with the highest placement record. Enroll in software courses and internship programs in Python, Flutter, Angular and PHP to start your career.
                     </p>
-                    <button type="button" class="btn btn-main btn-lg">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-                      </svg>
-                      Our Courses</button>
+                    <button type="button" class="btn btn-main btn-lg">Our Courses</button>
                   </div>
                 
                 </div>
@@ -118,10 +114,9 @@
                     <h2>Oray Education London, UK</h2>
                 </div>
                 <div class="col-md-4 pt-4 col-12">
-                    <a href="#" class=" btn btn-blue  btn-lg " tabindex="-1" role="button" aria-disabled="true">
-                      <svg class="text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                      </svg> &nbsp Download Brochure</a>
+                    <a href="#" class=" btn btn-blue  btn-lg " tabindex="-1" role="button" aria-disabled="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg> &nbsp Download Brochure</a>
                 </div>
             </div>
         </div>
@@ -199,11 +194,7 @@
                                 <p>Showcase your profile with skills acquired and get hired by your dream company..</p>
                             </li>
                             <li class="pt-4">
-                                <a class="btn btn-main">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-                                  </svg>
-                                  Know More</a>
+                                <a class="btn btn-main">Know More</a>
                             </li>
 
                         </ul>
@@ -274,17 +265,41 @@
           </div>
           <div class="col-12 col-md-6 ">
             <li class="text-lg-right" >
-              <a class="btn btn-main">
-                <svg class="text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-                </svg>
-                Placements</a>
+              <a class="btn btn-main">Placements</a>
           </li>
           </div>
         </div>
         <div class="row">
 
 
+          <!-- <div class="col-12 col-md-3 ">
+            <div class="placedetails">
+            <img src="{% static 'images/vishnu.png' %}" width="200px" class="img-fluid pt-4" />
+            <h4>Vishnu Lakshman</h4>
+            <span class="fontexpert pb-4">Full Stack Developer <br /> QIZO</span>
+          </div>    
+          </div>
+          <div class="col-12 col-md-3 ">
+            <div class="placedetails">
+            <img src="{% static 'images/rashida.png' %}" width="200px" class="img-fluid pt-4" />
+            <h4>Raashidha P</h4>
+            <span class="fontexpert pb-4">Associate Software Engineer,<br /> SRIT</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="placedetails">
+            <img src="{% static 'images/anil.png' %}" width="200px" class="img-fluid pt-4" />
+            <h4>Achanya Anil</h4>
+            <span class="fontexpert pb-4">Web Developer Trainee, <br /> Limenzy</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 ">
+            <div class="placedetails">
+            <img src="{% static 'images/abijith.png' %}" width="200px" class="img-fluid pt-4" />
+            <h4>Abijith Suresh</h4>
+            <span class="fontexpert pb-4">Java Developer, <br /> CCTS Global</span>
+            </div>
+          </div> -->
 
         
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -472,7 +487,7 @@
                     <h3 class="fontexpert1" style="font-size:40px ;">Organizations Our Students are <br />Placed at</h3>
                   </div>
               </div>
-              <div class="line mx-auto"></div>
+              <div class="line"></div>
           </div>
           <div class="row pt-4 pb-4" style="border: 1px solid rgb(231, 225, 225); border-radius: 10px; margin-top: 105px;">
             <div class="col-md-2 col-6">
@@ -527,7 +542,6 @@
                     <h3 class="fontexpert1" style="font-size:40px ;">Latest Blog</h3>
                  </div>
                 </div>
-                <div class="line mx-auto"></div>
           </div>
           <div class="row mt-5">
             <div class="col-12">
