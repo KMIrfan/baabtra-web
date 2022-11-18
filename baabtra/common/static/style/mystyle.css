@@ -105,13 +105,25 @@ h2{
     width: 100%;
     background-color:#263b5e ;
     left: 0px;
-}
-.fixed{
+    animation-name: headeranim ;
+    animation-duration: 5s;
     
 }
+@media max-height (1000px){
+
+@keyframes headeranim{
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 50px;
+    }
+}
+}
+
 
 .head{
-    border-bottom: 1px solid rgba(184, 121, 121, 0.03);;
+    border-bottom: 1px solid rgba(253, 253, 253, 0.03);;
 }
 .fontexpert{
     color: #FF1949;
@@ -319,6 +331,17 @@ p {
     max-height: 80px;
     margin-top: 20px;
 }
+.fontcolor2:hover{
+    color: #FF1949;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+    min-height: 80px;
+    max-height: 80px;
+    margin-top: 20px;
+}
+
 .span1{
     color: #535967;
     font-size: 15px;
@@ -381,6 +404,16 @@ ul{
     background-color: #FF1949;
     margin-bottom: 4px;
 }
+@keyframes headeranim{
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 50px;
+    }
+}
 
-
+a, a:visited, a:link, a:active{
+    text-decoration: none;
+}
 
